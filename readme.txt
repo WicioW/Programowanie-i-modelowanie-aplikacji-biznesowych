@@ -11,3 +11,13 @@ Zrobione z obu list
 lab 1
 lab 2
 lab 3
+
+
+
+
+
+- diagramy czynnoœci, Waleria
+- diagramy maszyny stanów,Waleria
+- diagramy interakcji, Waleria 
+-diagramy wdro¿eniowe, Wiktor
+-diagramy struktur po³¹czonych, Wiktor
