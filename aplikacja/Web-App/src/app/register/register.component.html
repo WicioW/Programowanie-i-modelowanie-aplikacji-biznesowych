@@ -1,0 +1,63 @@
+<head> 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+
+  <!-- Website CSS style -->
+ <!-- <link rel="stylesheet" type="text/css" href="assets/css/main.css"> --> 
+
+  <!-- Website Font style -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+  
+  <!-- Google Fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Passion+One' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
+
+
+</head>
+<form [formGroup]="registerForm">
+  <div class="container">
+    <div class="row main">
+   
+      <div class="main-login main-center">
+
+          <div class="form-group">
+            <label for="username" class="cols-sm-2 control-label">Username</label>
+            <div class="cols-sm-10">
+              <div class="input-group">
+                <span class="input-group-addon"><i class="fa fa-users fa" aria-hidden="true"></i></span>
+                <input formControlName="username" type="text" class="form-control"  placeholder="Enter your Username"/>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="password" class="cols-sm-2 control-label">Password</label>
+            <div class="cols-sm-10">
+              <div class="input-group">
+                <span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
+                <input formControlName="password" type="password" class="form-control" placeholder="Enter your Password"/>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="confirm" class="cols-sm-2 control-label">Confirm Password</label>
+            <div class="cols-sm-10">
+              <div class="input-group">
+                <span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
+                <input formControlName="password2" type="password" class="form-control" placeholder="Confirm your Password"/>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-group ">
+            <button  (click)="register()" type="button" class="btn btn-primary btn-lg btn-block login-button">Register</button>
+          </div>
+          <div class="login-register">
+                  <button (click)="ReDirect('login')">Login</button>
+                  <button (click)="ReDirect('')">Main Page</button>
+               </div>
+      </div>
+    </div>
+  </div>
+</form>
